@@ -8,9 +8,15 @@ import com.unopar.CadUsuario.service.CadastroService;
 
 @Controller
 public class HomeController {
-    
+
     @RequestMapping("/")
-    public String home(){
+    public String home() {
         return "index";
     }
+
+    @RequestMapping("/sucesso")
+    public String sucesso() {
+        return "sucesso"; 
+    }
+
 }
