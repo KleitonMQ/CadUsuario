@@ -17,7 +17,7 @@ public class CadastroController {
     private CadastroService cadastroService;
 
     @PostMapping("/salvar")
-    public String salvarCadastro(@RequestParam("nome") String nome, ){
+    public String salvarCadastro(@RequestParam("nome") String nome){
         Cadastro cadastro = new Cadastro();
         return "redirect:/sucesso";
     }
