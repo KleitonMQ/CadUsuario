@@ -9,13 +9,8 @@ import com.unopar.CadUsuario.service.CadastroService;
 @Controller
 public class HomeController {
     
-    @Autowired
-    CadastroService cadastroService;
-
     @RequestMapping("/")
     public String home(){
         return "index";
     }
-
-    
 }
