@@ -14,45 +14,45 @@
             <form action="/cadastro/salvar" method="post">
                 <div class="row mb-3">
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="Nome" id="nome" required>
+                        <input type="text" class="form-control" placeholder="Nome" id="nome" name="nome" required>
                     </div>
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="Sobrenome" id="sobrenome" required>
+                        <input type="text" class="form-control" placeholder="Sobrenome" id="sobrenome" name="sobrenome" required>
                     </div>
                 </div>
                 <div class="mb-3">
-                    <input type="email" class="form-control" placeholder="Email" id="email" required>
+                    <input type="email" class="form-control" placeholder="Email" id="email" name="email" required>
                 </div>
                 <div class="mb-3">
-                    <input type="password" class="form-control" placeholder="Senha" id="senha" required>
+                    <input type="password" class="form-control" placeholder="Senha" id="senha" name="password" required>
                 </div>
                 <div class="row mb-3">
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="CEP" id="cep" required>
+                        <input type="text" class="form-control" placeholder="CEP" id="cep" name="cep" required>
                         <label for="cep" hidden id="cep-erro">Cep não encontrado!</label>
                         <button class="btn btn-secondary btn-sm">Validar</button>
                     </div>
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="Rua" id="rua" required>
+                        <input type="text" class="form-control" placeholder="Rua" id="rua" name="rua" required>
                     </div>
                 </div>
                 <div class="row mb-3">
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="Bairro" id="bairro" required>
+                        <input type="text" class="form-control" placeholder="Bairro" id="bairro" name="bairro" required>
                     </div>
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="Cidade" id="cidade" required>
+                        <input type="text" class="form-control" placeholder="Cidade" id="cidade" name="cidade" required>
                     </div>
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="Estado" id="uf" required>
+                        <input type="text" class="form-control" placeholder="Estado" id="uf" name="estado" required>
                     </div>
                 </div>
                 <div class="row mb-3">
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="Número" id="numero" required>
+                        <input type="text" class="form-control" placeholder="Número" id="numero" name="numero" required>
                     </div>
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="Complemento" id="complemento">
+                        <input type="text" class="form-control" placeholder="Complemento" id="complemento" name="complemento">
                     </div>
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>

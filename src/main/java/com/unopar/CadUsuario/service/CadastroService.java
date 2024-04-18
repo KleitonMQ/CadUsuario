@@ -1,7 +1,8 @@
 package com.unopar.CadUsuario.service;
 
+import com.unopar.CadUsuario.dto.CadastroDTO;
+
 public interface CadastroService {
     
-    void inserirCadastro(String nome, String sobrenome, String email, String senha, String cep, String rua, String bairro,
-    String cidade, String estado, String numero, String complemento);
+    void inserirCadastro(CadastroDTO cadastroDTO);
 }
